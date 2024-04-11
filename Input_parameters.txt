@@ -1,0 +1,27 @@
+###Uniform Experiment Settings###
+###Example for FEI krios ###
+
+1. Pixel information for your camera:
+ NX=    NY=   QX=   QY=   !Number and Size (mm) of pixel
+
+2. Overload range for your camera:
+ OVERLOAD=           !default value dependent on the detector used
+
+3. Resolution range for the 1st round:
+ INCLUDE_RESOLUTION_RANGE=   
+
+4. Direct beam position
+ ORGX=   ORGY=  
+
+5. Cameralength
+ DETECTOR_DISTANCE=  
+
+6. Oscillation range, degree per frame:
+ OSCILLATION_RANGE=
+
+7. Rotation axis, depending on microscope:
+ ROTATION_AXIS=   !cos(rotationaxis) cos(axis-90)  !in XDS.INP
+
+8. Wavelength, nm (200kev 0.02508, 300kev 0.01968):
+ X-RAY_WAVELENGTH=       !used by IDXREF
+

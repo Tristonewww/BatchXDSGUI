@@ -1,0 +1,42 @@
+#
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install python3-pip
+
+#
+Tkinter
+sudo apt-get install python3-tk
+
+#
+pandas
+pip3 install pandas
+
+#
+Use Xming if you are not wls 2
+
+
+#
+mrcfile
+pip3 install mrcfile
+
+#
+fabio
+pip3 install fabio
+
+#matplotlib
+pip3 install --upgrade pip setuptools wheel
+pip3 install pillow
+pip3 install matplotlib
+
+#spicy
+pip3 install spicy
+
+
+#
+openpyxl
+pip3
+
+#
+libreoffice  not neccessary
+sudo apt install libreoffice
+
